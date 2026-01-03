@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-#coverpage {
+#home {
   min-height: 100vh;
   /* width: 100vw; */
   background: linear-gradient(#007379, #213977 40%, #212529 75%);
@@ -13,6 +13,10 @@ body {
   background-color: rgb(34, 133, 214);
 }
 
+.sect {
+  background-color: #212529;
+  min-height: 100vh;
+}
 
 /* Ensure the link is the reference point for the absolute line */
 .navbar-nav .nav-link {
@@ -35,19 +39,19 @@ body {
 }
 
 /* Animate the line to full width on hover */
-.navbar-nav .nav-link:hover::after {
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
   transform: scaleX(1);
 }
 
 /* Keep your existing animation CSS, then add this below it: */
 
 /* Target the mobile/collapsed view specifically */
-@media (max-width: 991px) { /* Use 991px for navbar-expand-lg, or 767px for navbar-expand-md */
+@media (max-width: 991px) {
+  /* Use 991px for navbar-expand-lg, or 767px for navbar-expand-md */
   .navbar-nav .nav-link {
     width: fit-content; /* Shrinks the link to the size of the text */
     margin-left: 0;
     margin-right: 0;
   }
 }
-
-
