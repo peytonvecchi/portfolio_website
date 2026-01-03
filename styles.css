@@ -34,7 +34,7 @@ body {
   height: 2px; /* Thickness of the line */
   background-color: #dae9f5; /* Change to your preferred color */
   transform: scaleX(0); /* Start with 0 width */
-  transition: transform 0.2s ease-in-out; /* Smooth drawing effect */
+  transition: transform 0.3s ease-in-out; /* Smooth drawing effect */
   transform-origin: bottom left; /* Controls draw direction */
 }
 
