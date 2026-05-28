@@ -3,7 +3,23 @@ body {
   margin: 0;
 }
 
+.btn-outline-light {
+  --bs-btn-color: rgb(10,102,194);
+  --bs-btn-border-color: rgb(10,102,194);
+  --bs-btn-hover-bg: rgb(10,102,194);
+  --bs-btn-hover-border-color: rgb(10,102,194);
+}
+
+.linkedin-btn {
+  --bs-btn-color: #0A66C20;
+  --bs-btn-border-color: #0A66C20;
+  --bs-btn-hover-bg: #0A66C20;
+  --bs-btn-hover-border-color: #0A66C20;
+}
+
 #home {
+  margin-top: 56px;
+  padding-top: 160px;
   min-height: 100vh;
   /* width: 100vw; */
   background: linear-gradient(#007379, #213977 40%, #212529 75%);
