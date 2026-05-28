@@ -24,6 +24,7 @@ body {
 
 .btn-home {
   border-radius: 50rem;
+  font-weight: bold;
 }
 
 .btn-linkedin {
@@ -113,4 +114,18 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
+
+  section>div>div {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section>div>div>button {
+    width: 200px;
+  }
+
+  section>div>p {
+    margin: 3px;
+  }
+
 }
