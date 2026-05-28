@@ -1,11 +1,15 @@
+/* * {
+  border: red solid 2px;
+} */
+
 :root {
   --linkedin-color: #2285d6;
   --linked-color-dark: color-mix(in srgb, var(--linkedin-color) 80%, black);
   --github-color: #f5f5f5;
   --github-color-dark: color-mix(in srgb, var(--github-color) 80%, black);
-  --project-color: #018c93;
+  --project-color: #d7813a;
   --project-color-dark: color-mix(in srgb, var(--project-color) 80%, black);
-  --resume-color: #f2a500;
+  --resume-color: #f5f5f5;
   --resume-color-dark: color-mix(in srgb, var(--resume-color) 80%, black);
 
 }
@@ -25,6 +29,7 @@ body {
 .btn-home {
   border-radius: 50rem;
   font-weight: bold;
+  /* width: 120px; */
 }
 
 .btn-linkedin {
@@ -120,7 +125,7 @@ body {
     align-items: center;
   }
   
-  section>div>div>button {
+  .btn-home {
     width: 200px;
   }
 
