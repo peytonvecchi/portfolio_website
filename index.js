@@ -1,11 +1,14 @@
 const uris = [
     "https://www.youtube.com/watch?v=FnHMY0wTnLE",
     "https://www.youtube.com/watch?v=F-Gk5_qBRR0",
-    "https://www.youtube.com/watch?v=FyaYkfgVyog"
+    "https://www.youtube.com/watch?v=FyaYkfgVyog",
+    "https://www.youtube.com/shorts/WHh8mUtqEN4",
+    "https://www.youtube.com/shorts/xGtw5XgJPIw",
 ];
 
 function randomNum() {
-    return Math.floor(Math.random()*3);
+    console.log("key length", Object.keys(uris).length)
+    return Math.floor(Math.random()*Object.keys(uris).length);
 }
 
 function randomUri(e) {
